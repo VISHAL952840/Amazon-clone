@@ -263,4 +263,65 @@ ul a {
 
 .copyright {
     padding-top: 5px;
+
+} 
+
+@media (max-width: 768px) {
+
+  /* Navbar */
+  .navbar {
+    flex-wrap: wrap;
+    height: auto;
+    padding: 10px 0;
+  }
+
+  .nav-search {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .nav-logo,
+  .nav-address,
+  .nav-signin,
+  .nav-return,
+  .nav-cart {
+    margin: 5px;
+  }
+
+  /* Panel */
+  .panel {
+    flex-wrap: wrap;
+    height: auto;
+  }
+
+  .panel-ops {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* Hero section */
+  .hero-section {
+    height: 200px;
+  }
+
+  .hero-msg {
+    font-size: 0.7rem;
+  }
+
+  /* Shop boxes */
+  .box {
+    width: 100%;
+    height: auto;
+  }
+
+  .box-img {
+    height: 250px;
+  }
+
+  /* Footer */
+  .foot-panel2 {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
 }
